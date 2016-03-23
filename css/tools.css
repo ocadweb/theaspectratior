@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body.page .ttl_h1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+body.page .post_body {
+    padding-top: 0;
+}
+
+.aspectratio {
+    font-size: small;
+}
+.aspectratio .imgInput .imgView {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.aspectratio .formbox {
+    background-color: #EFBFA8;
+    padding: 10px;
+}
+.aspectratio input {
+    color: #333;
+}
+.aspectratio .nowsize {
+    display: none;
+}
+.aspectratio .aspectlist {
+    padding-top: 1rem;
+    background-color: #f5f5f5;
+}
+.aspectratio .clone {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+}
+.aspectratio.upfix .clone img {
+    opacity: 0.7;
+}
+
+.aspectratio.upfix .nowsize {
+    display: inline;
+}
